@@ -1,4 +1,4 @@
-const val dayNumber = 5
+private const val dayNumber = 5
 private operator fun <T> List<T>.component6(): T = get(5)
 class Instruction(input: String) {
     val nCrates: Int
