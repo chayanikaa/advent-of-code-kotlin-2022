@@ -93,12 +93,12 @@ fun calculateScoresForRoundPart2(play: String): Score {
     return Score(elf1Move.score + (6 - winLoseScoreElf2.score), elf2Move.score + winLoseScoreElf2.score)
 }
 
-fun part1(inputPlays: List<String>): Int {
+private fun part1(inputPlays: List<String>): Int {
     // elf 1 is opponent
     return inputPlays.sumOf { calculateScoresForRoundPart1(it).elf2 }
 }
 
-fun part2(inputPlays: List<String>): Int {
+private fun part2(inputPlays: List<String>): Int {
     // elf 1 is opponent
     return inputPlays.sumOf { calculateScoresForRoundPart2(it).elf2 }
 }
