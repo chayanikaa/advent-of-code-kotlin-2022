@@ -30,9 +30,9 @@ private fun part2(inputPlays: List<String>): Int {
 
 fun main() {
     println("======================================")
-    println("Day 2 part 1 test input: ${part1(readInputLines("Day03_test"))}")
-    println("Day 2 part 2 test input: ${part2(readInputLines("Day03_test"))}")
-    println("Day 2 part 1 final input: ${part1(readInputLines("Day03"))}")
-    println("Day 2 part 2 final input: ${part2(readInputLines("Day03"))}")
+    println("Day 3 part 1 test input: ${part1(readInputLines("Day03_test"))}")
+    println("Day 3 part 2 test input: ${part2(readInputLines("Day03_test"))}")
+    println("Day 3 part 1 final input: ${part1(readInputLines("Day03"))}")
+    println("Day 3 part 2 final input: ${part2(readInputLines("Day03"))}")
     println("======================================")
 }
